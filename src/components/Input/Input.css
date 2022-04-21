@@ -1,0 +1,14 @@
+.input {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #2d2565;
+  color: white;
+}
+
+.input__form {
+  max-width: 1120px;
+  width: 90%;
+  padding: 20px;
+}
+/*# sourceMappingURL=Input.css.map */

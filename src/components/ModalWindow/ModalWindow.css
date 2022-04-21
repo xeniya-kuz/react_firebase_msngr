@@ -1,0 +1,12 @@
+.modalWindow {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  background-color: #2d2565;
+  border-radius: 15px;
+}
+
+.modalWindow__content {
+  padding: 10px;
+}
+/*# sourceMappingURL=ModalWindow.css.map */

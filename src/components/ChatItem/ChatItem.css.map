@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,SAAS,EAAE,CAAC;EACZ,UAAU,EAAE,IAAI;CAAG",
+    "sources": [
+        "ChatItem.sass"
+    ],
+    "names": [],
+    "file": "ChatItem.css"
+}

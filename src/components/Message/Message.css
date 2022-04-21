@@ -1,0 +1,18 @@
+.message__item {
+  text-align: right;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: wheat;
+  padding: 5px 10px;
+}
+
+.message__author {
+  color: #1c1649;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.message__text {
+  word-break: break-all;
+}
+/*# sourceMappingURL=Message.css.map */

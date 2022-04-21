@@ -1,0 +1,53 @@
+.list {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 20px;
+  list-style-type: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.list__li {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list__link {
+  text-decoration: none;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list__link:hover {
+  background-color: rgba(179, 193, 245, 0.5);
+}
+
+.list__modal {
+  padding-left: 0px;
+  cursor: pointer;
+  position: relative;
+}
+
+.list__modal__mark {
+  margin-left: 5px;
+}
+
+.list__input {
+  margin-top: 10px;
+}
+
+.active {
+  background-color: #2d2565;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=ChatList.css.map */

@@ -1,0 +1,32 @@
+.form {
+  border-radius: 10px;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.form__input {
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #2d2565;
+  color: white;
+}
+
+.form__submit {
+  background-color: wheat;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.form__submit:hover {
+  background-color: #b3c1f5;
+}
+
+.form__submit:active {
+  background-color: #1c1649;
+  color: white;
+}
+/*# sourceMappingURL=Form.css.map */

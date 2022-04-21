@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,gBAAgB,EAAE,OAAgB;EAClC,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,QAAQ;EACjB,KAAK,EAAE,KAAK;CAAG",
+    "sources": [
+        "MessageList.sass"
+    ],
+    "names": [],
+    "file": "MessageList.css"
+}

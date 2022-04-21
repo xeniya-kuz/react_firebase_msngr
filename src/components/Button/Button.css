@@ -1,0 +1,30 @@
+.button {
+  background-color: wheat;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #b3c1f5;
+}
+
+.button:active {
+  background-color: #1c1649;
+  color: white;
+}
+
+.button__mt20 {
+  margin-top: 20px;
+}
+
+.button__par {
+  position: absolute;
+  right: 0px;
+}
+
+.button__submit {
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=Button.css.map */

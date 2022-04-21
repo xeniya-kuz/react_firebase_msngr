@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { RoutesComponent } from './components/Routes/Routes'
+import { Provider } from "react-redux"
+import { store, persistor } from './store';
+import './App.sass';
+import { PersistGate } from 'redux-persist/integration/react';
+import { CircularProgress } from '@material-ui/core';
+import './fontawesome';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Provider store={store}>
+      <PersistGate persistor={persistor} loading={<CircularProgress />}>
+        <RoutesComponent />
+      </PersistGate>
+    </Provider>
+  )
 }
 
 export default App;
